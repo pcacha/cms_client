@@ -1,13 +1,99 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding-top: 65px;
+  background: slategray url("./assets/work.jpg") no-repeat fixed;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.gray-noise-background {
+  background: white url("./assets/gray-noise.png") repeat;
+}
+
+
+
+/*navigatoin*/
+.fixed-header {
+  top: 0;
+  z-index: 1;
+}
+
+.blue-nav {
+  background-color: #023d75;
+}
+
+#blue-nav a, #blue-nav ul li {
+  color: white;
+}
+
+
+#blue-nav .navbar-brand {
+  font-size: 1.7em;
+  font-weight: bolder;
+}
+
+.blue-nav div div ul li div.my-dropdown > a{
+  color: black!important;
+}
+
+#navbarDropdown, #logout {
+  cursor: pointer;
+}
+
+
+/*auth*/
+.auth-div {
+  max-width: 600px!important;
+}
+
+
+
+/*home*/
+h3 {
+  color: #023d75;
+  font-weight: bolder;
+}
+
+.bottom-padding{
+  padding-bottom: 90px;
+}
+
+
+/*card*/
+.my-card {
+  padding: 40px;
+  background-color: cadetblue;
+  min-height: 220px;
+}
+
+
+
+/*jumbotron*/
+.intro {
+  background: slategray url("assets/backgroung.jpg") no-repeat fixed;
+  height: 550px;
+}
+
+.intro p{
+  font-size: 1.45em;
+}
+
+.blurred-black{
+  background: rgba(200, 200, 200, 0.85);
+}
+
+/*footer*/
+footer {
+  background-color: #023d75;
+  bottom: 0;
+  color: white;
+  font-size: 1.15em;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+#my-article-card {
+  border-width: thick!important;
+}
+
+.star {
+  text-shadow: 2px 2px 4px #000000;
 }
