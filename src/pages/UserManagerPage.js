@@ -22,15 +22,15 @@ class UserManagerPage extends Component {
         let user = updatedUsers.find(u => u.id === id);
         switch(action) {
             case "author":
-                user.author = value;
+                user.isAuthor = value;
                 apiCalls.setAuthor(id, value);
                 break;
             case "reviewer":
-                user.reviewer = value;
+                user.isReviewer = value;
                 apiCalls.setReviewer(id, value);
                 break;
             case "banned":
-                user.banned = value;
+                user.isBanned = value;
                 apiCalls.setBan(id, value);
                 break;
         }
