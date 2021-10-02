@@ -1,4 +1,4 @@
-import * as apiCalls from "../api/apiCalls";
+import * as apiCalls from "../apiCalls/apiCalls";
 import * as actionsTypes from "./actionsTypes";
 import jwt_decode from "jwt-decode";
 

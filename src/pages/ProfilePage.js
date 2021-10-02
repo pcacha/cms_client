@@ -3,7 +3,7 @@ import Input from "../components/Input";
 import * as authActions from "../store/authActions";
 import {connect} from "react-redux";
 import ButtonWithProgress from "../components/ButtonWithProgress";
-import * as apiCalls from "../api/apiCalls";
+import * as apiCalls from "../apiCalls/apiCalls";
 import handleError from "../shared/failureHandler";
 
 class ProfilePage extends Component {

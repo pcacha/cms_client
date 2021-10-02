@@ -1,7 +1,7 @@
 import {createStore, applyMiddleware, compose} from "redux";
 import thunk from "redux-thunk";
 import authReducer from "./authReducer";
-import * as apiCalls from "../api/apiCalls";
+import * as apiCalls from "../apiCalls/apiCalls";
 import * as authActions from "./authActions";
 
 let localStorageData = localStorage.getItem("user");

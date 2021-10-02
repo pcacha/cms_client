@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {fetchArticleById, fetchReviewById} from "../api/apiCalls";
+import {fetchArticleById, fetchReviewById} from "../apiCalls/apiCalls";
 import Spinner from "../components/Spinner";
 import {Redirect} from "react-router-dom";
 import ButtonWithProgress from "../components/ButtonWithProgress";
-import * as apiCalls from "../api/apiCalls";
+import * as apiCalls from "../apiCalls/apiCalls";
 import handleError from "../shared/failureHandler";
 
 class ReviewPage extends Component {

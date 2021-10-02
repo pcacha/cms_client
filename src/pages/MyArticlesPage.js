@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import MyArticleCard from "../components/MyArticleCard";
-import * as apiCalls from "../api/apiCalls";
+import * as apiCalls from "../apiCalls/apiCalls";
 import Spinner from "../components/Spinner";
 import handleError from "../shared/failureHandler";
 

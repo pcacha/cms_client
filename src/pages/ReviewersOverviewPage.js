@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import * as apiCalls from "../api/apiCalls";
+import * as apiCalls from "../apiCalls/apiCalls";
 import Spinner from "../components/Spinner";
 import ReviewerCard from "../components/ReviewerCard";
 
